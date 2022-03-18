@@ -1,4 +1,4 @@
-trademe
+trademe 
 __pycache__
 training.py
 *.tar
@@ -10,6 +10,3 @@ datetest.py
 Lib
 Inlcude
 Scripts
-
-
-
