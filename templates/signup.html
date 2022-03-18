@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+    <div>
+        {{ messages[0] }}. Go to <a href="{{ url_for('auth.login') }}">Loging Page</a>
+    </div>
+{% endif %}
+{% endwith %}
+<br>
+
+<form class="cred" method ="POST" action="/signup">
+
+<input type="email" name="email" placeholder="Your Email" autofocus="">
+
+<input type="text" name="name" placeholder="Your Name" autofocus="">
+
+<input type="password" name="password" placeholder="Your Password">
+
+<button>Signup</button>
+
+</form>
+
+{% endblock %}

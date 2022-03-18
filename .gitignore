@@ -1,0 +1,15 @@
+trademe
+__pycache__
+training.py
+*.tar
+*.zip
+*.rar
+*.gz
+datetest.py
+.vscode
+Lib
+Inlcude
+Scripts
+
+
+

@@ -1,0 +1,81 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there",
+                "Good day",
+                "Heya",
+                "Hi there",
+                "How do",
+                "Howdy",
+                "Hello",
+                "Whats up",
+                "Oi mate",
+                "You alright",
+                "Salutations",
+                "Ola",
+                "wagwan",
+                "sup",
+                "g'day",
+                "hows it going",
+                "hello guvna"
+            ],
+            "responses": [
+                "Hello!",
+                "Good day to you sir!",
+                "How's it going?",
+                "Hope you are doing well."
+            ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [
+                "when are you open",
+                "what time can i come in",
+                "when do you close",
+                "what time can i come by",
+                "i want to go to a store",
+                "when is the shop open",
+                "open times?",
+                "opening hours?",
+                "what are your opening hours",
+                "so are you open"
+            ],
+            "responses": [
+                "We are open from 9am to 5pm!",
+                "Currently we are indeed open.",
+                "Different stores have different opening times, please specify a store."
+            ]
+        },
+        {
+            "tag": "register",
+            "patterns": [
+                "How do I open an account",
+                "How do I register an account",
+                "How do I sign up",
+                "where do I sign up",
+                "where do I register"
+            ],
+            "responses": [
+                "Press the register button and create an account"
+            ]
+        },
+        {
+            "tag": "login",
+            "patterns": [
+            ],
+            "responses": [
+            ]
+        },
+        {
+            "tag": "login",
+            "patterns": [
+            ],
+            "responses": [
+            ]
+        }
+    ]
+}

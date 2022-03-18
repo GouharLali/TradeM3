@@ -1,0 +1,57 @@
+.desktop, .mobile { 
+    display: none; 
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color:blue;
+    }
+    .dark-mode {
+        background-color: #a3d4dd;
+    }
+    h1 { 
+        color:yellow;
+        background-color: black; 
+        text-align: center; 
+        padding: 5%; 
+        font-size: 4em;
+    } 
+    nav { 
+        color:rgb(241, 241, 227);
+        text-align: center; 
+    } 
+    nav a {
+        color:rgb(245, 245, 237);
+        text-align: center; 
+    } 
+    h2 { 
+        color:yellow;
+        background-color: black; 
+        text-align: center; 
+        padding: 5%; 
+        font-size: 4em;
+    }
+    .mobile { 
+        display: inline-block; 
+    }
+    .dark-mode h1 { 
+        color:rgb(12, 12, 12);
+        background-color: rgb(255, 130, 130); 
+        text-align: center; 
+        padding: 5%; 
+        font-size: 4em;
+    } 
+    .dark-mode h2 { 
+        color:rgb(12, 12, 12);
+        background-color: rgb(255, 130, 130); 
+        text-align: center; 
+        padding: 5%; 
+        font-size: 4em;
+    } 
+}
+
+@media (orientation: landscape) {
+    .desktop {
+        display: inline-block;
+    }
+}

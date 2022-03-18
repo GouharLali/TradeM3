@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<body>
+    <header>
+        <h1> This is the chatbot page</h1>
+        <p> Welcome to chatbot</a></p>
+    </header>
+    <main>
+        <h2> This is chatbot</h2>
+        <div>
+            <div id="thebot">
+                <h3>TheBot says:</h3>
+                {% for answer in answer_list %}
+                <h2>{{ answer }}</h2>
+                {% endfor %}
+                <br>
+                <br>
+                <form role="form" method="POST" action="/chatbot">
+                    <div id="questionbox">
+                        <input
+                        type="text"
+                        name="message"
+                        id="messagebox"
+                        placeholder="enter the question here"
+                        style="max-width: 300px;"
+                        autofocus required
+                        >
+                    </input>
+                    </div>
+                    <button type="submit">submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+{% endblock %}
